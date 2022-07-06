@@ -1,0 +1,46 @@
+INSTRUCCIONES PARA LA REALIZACION Y ENTREGA DEL TRABAJO PRACTICO.
+
+- Se debe adaptar el sistema para que las operaciones que se hacen en la
+  tabla "producto" se hagan tambien en la tabla "marca".
+  
+- Tiene que modificar el archivo "consulta_general.php" para que haga una
+  de las siguientes operaciones:
+  
+  	1) Consulte solo los productos que sean "pastas y derivados", con costos mayores a 30000.
+  	2) Consultar los productos de marcas que empiecen con "M" y costo menor a 32000
+  	3) Consultar los productos con detalle de marca que terminen en "s" y fecha de vencimiento hasta el 31-12-2020.
+  	4) Consultar solamente los productos de marca "MAVESA", con un precio calculado al costo aumentado en 20%.  
+  	5) Consultar el promedio de los costos de los productos de las marcas que empiecen por "A" o terminen por "i".
+  	6) Consultar los productos con codigo menor a 1000 y que tengan la letra "m" en el detalle de marca. 
+  	7) Consultar la suma de los costos de los productos cuyos detalle de marca sean "aceites".
+  	8) Consultar cuantos productos cuyos detalle de marca no son "aceites".
+  	9) Consultar los productos que su detalle sea "pasta" y su marca sea "Sindoni".
+  	10) Consultar el promedio de los precios (costo aumentado en 10%) de los productos de las marcas que empiecen por "A" o terminen por "i".
+  	
+  	** Para todas las consultas se deben mostrar todos los campos de las tablas, menos los campos "id" **
+  	
+- Se debe hacer solo UNA (1) operacion por equipo. Es obvio que hay un maximo de 10 equipos (de 5 personas), reparidos en la dos secciones.
+
+- Si se forman mas de 10 equipos, consultar al profesor para que les de otras operaciones.
+
+- Informar por el grupo a los integrantes de cada equipo y la operacion que eligieron.
+
+
+
+
+INSTRUCCIONES PARA LA INSTALACION DEL SISTEMA.
+
+- Copiar la carpeta "almacen" en el directorio del servidor web. Para los que usan XAMPP el directorio se llama "htdocs", y es similar en Linux y Windows.
+
+- En PHPMyAdmin, crear una base de datos llamada "almacen".
+
+- Copiar el contenido del archivo "almacen.sql" y pegarlo en la ventana SQL del PHPMyAmin. Ejecutar..
+
+- Modificar el contenido del archivo "config.php" con las credenciales de su usuario y contraseña de MySQL.
+
+- Para correrlo: Abrir un navegador e itroducir la direccion: 127.0.0.1/almacen
+
+
+** Para cualquier duda, consultar al profesor o, preferiblemento, consultar a travez del grupo (porque puede que alguien tambien tenga la misma duda o solucion).
+
+ 
